@@ -1,5 +1,51 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        var dog = 8.0;
+        System.out.println(dog);
+        dog = 8.0 + 4.0;
+        System.out.println(dog);
+        dog = dog - 3.5;
+        System.out.println(dog);
+        var cat = 3.6;
+        System.out.println(cat);
+        cat = 3.6 + 4.0;
+        System.out.println(cat);
+        cat = cat - 1.6;
+        System.out.println(cat);
+        var paper = 763789;
+        System.out.println(paper);
+        paper = 763789 + 4;
+        System.out.println(paper);
+        paper = paper - 7639;
+        System.out.println("Hello" + paper);
+        var friend = 19;
+        System.out.println(friend);
+        friend =friend + 2;
+        System.out.println(friend);
+        friend =(friend + 2 ) /7;
+        System.out.println(friend);
+        var frog = 3.5;
+        System.out.println(frog);
+        frog = frog*10;
+        System.out.println(frog);
+        frog = frog/3.5;
+        System.out.println(frog);
+        frog = frog +4;
+        System.out.println(frog);
+        var massBox1 = 78.2;
+        var massBox2 = 82.7;
+        var result = massBox1 + massBox2;
+        System.out.println(result);
+        var raznica = massBox2-massBox1;
+        System.out.println(raznica);
+        var ostatok =massBox2 % massBox1;
+        System.out.println(ostatok);
+        var chasov = 640;
+        var rabota = 8;
+        var rabotnikov = chasov/rabota;
+        System.out.println("Всего работников в компании - " +rabotnikov+ " человек");
+        rabotnikov = rabotnikov + 94;
+        var chasovRabota = chasov/rabotnikov;
+        System.out.println("Если в компании работает " +rabotnikov+ " человека, то всего " +chasovRabota+ " часа работы может быть поделено между сотрудниками" );
     }
 }
