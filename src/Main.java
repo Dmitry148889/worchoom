@@ -33,12 +33,12 @@ public class Main {
         frog = frog +4;
         System.out.println(frog);
         var massBoxA = 78.2;
-        var massBoxB = 82.7;
-        var result = massBoxA + massBoxB;
+        var massBoxC = 82.7;
+        var result = massBoxA + massBoxC;
         System.out.println(result);
-        var raznica = massBoxB-massBoxA;
+        var raznica = massBoxC-massBoxA;
         System.out.println(raznica);
-        var ostatok =massBoxB % massBoxA;
+        var ostatok =massBoxC % massBoxA;
         System.out.println(ostatok);
         var chasov = 640;
         var rabota = 8;
