@@ -40,12 +40,12 @@ public class Main {
         System.out.println(raznica);
         var ostatok =massBoxC % massBoxA;
         System.out.println(ostatok);
-        var chasov = 640;
+        var weekWorkingHours = 640;
         var rabota = 8;
-        var rabotnikov = chasov/rabota;
+        var rabotnikov = weekWorkingHours/rabota;
         System.out.println("Всего работников в компании - " +rabotnikov+ " человек");
         rabotnikov = rabotnikov + 94;
-        var chasovRabota = chasov/rabotnikov;
+        var chasovRabota = weekWorkingHours/rabotnikov;
         System.out.println("Если в компании работает " +rabotnikov+ " человека, то всего " +chasovRabota+ " часа работы может быть поделено между сотрудниками" );
     }
 }
