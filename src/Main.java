@@ -33,19 +33,19 @@ public class Main {
         frog = frog +4;
         System.out.println(frog);
         var massBoxA = 78.2;
-        var massBoxB = 82.7;
-        var result = massBoxA + massBoxB;
+        var massBoxC = 82.7;
+        var result = massBoxA + massBoxC;
         System.out.println(result);
-        var raznica = massBoxB-massBoxA;
-        System.out.println(raznica);
-        var ostatok =massBoxB % massBoxA;
-        System.out.println(ostatok);
-        var chasov = 640;
-        var rabota = 8;
-        var rabotnikov = chasov/rabota;
-        System.out.println("Всего работников в компании - " +rabotnikov+ " человек");
-        rabotnikov = rabotnikov + 94;
-        var chasovRabota = chasov/rabotnikov;
-        System.out.println("Если в компании работает " +rabotnikov+ " человека, то всего " +chasovRabota+ " часа работы может быть поделено между сотрудниками" );
+        var difference = massBoxC-massBoxA;
+        System.out.println(difference);
+        var remainder =massBoxC % massBoxA;
+        System.out.println(remainder);
+        var weekWorkingHours = 640;
+        var job = 8;
+        var workers = weekWorkingHours/job;
+        System.out.println("Всего работников в компании - " +workers+ " человек");
+        workers = workers + 94;
+        var openingHours = weekWorkingHours/workers;
+        System.out.println("Если в компании работает " +workers+ " человека, то всего " +openingHours+ " часа работы может быть поделено между сотрудниками" );
     }
 }
