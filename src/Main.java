@@ -36,10 +36,10 @@ public class Main {
         var massBoxC = 82.7;
         var result = massBoxA + massBoxC;
         System.out.println(result);
-        var raznica = massBoxC-massBoxA;
-        System.out.println(raznica);
-        var ostatok =massBoxC % massBoxA;
-        System.out.println(ostatok);
+        var difference = massBoxC-massBoxA;
+        System.out.println(difference);
+        var remainder =massBoxC % massBoxA;
+        System.out.println(remainder);
         var weekWorkingHours = 640;
         var job = 8;
         var workers = weekWorkingHours/job;
