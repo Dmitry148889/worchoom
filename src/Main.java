@@ -41,11 +41,11 @@ public class Main {
         var ostatok =massBoxC % massBoxA;
         System.out.println(ostatok);
         var weekWorkingHours = 640;
-        var rabota = 8;
-        var rabotnikov = weekWorkingHours/rabota;
-        System.out.println("Всего работников в компании - " +rabotnikov+ " человек");
-        rabotnikov = rabotnikov + 94;
-        var chasovRabota = weekWorkingHours/rabotnikov;
-        System.out.println("Если в компании работает " +rabotnikov+ " человека, то всего " +chasovRabota+ " часа работы может быть поделено между сотрудниками" );
+        var job = 8;
+        var workers = weekWorkingHours/job;
+        System.out.println("Всего работников в компании - " +workers+ " человек");
+        workers = workers + 94;
+        var openingHours = weekWorkingHours/workers;
+        System.out.println("Если в компании работает " +workers+ " человека, то всего " +openingHours+ " часа работы может быть поделено между сотрудниками" );
     }
 }
